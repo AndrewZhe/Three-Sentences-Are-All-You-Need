@@ -10,3 +10,5 @@ Step3: Go to ./src/preprocess/ and run make_dataset_doc_path.py. The preprocesse
 
 ## Train Model
 Go to src/script and run local_path.sh. The log file will be stored in ./log/100_lower-doc-new-path/local_path/.
+
+I train this model on 3090 with 24G memory. If you want to train this model on a gpu with smaller vm, you need to reduce the negative samples in one document. (I will release a version to support it soon)
