@@ -1,0 +1,9 @@
+*.json
+*.pyc
+*.fact
+*.ckpt
+*.txt
+*.wandb
+*.log
+*.yaml
+*.npy
